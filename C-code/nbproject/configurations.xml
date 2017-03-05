@@ -14,6 +14,8 @@
                    displayName="Source Files"
                    projectFiles="true">
       <itemPath>exercise_1.cpp</itemPath>
+      <itemPath>exercise_2.cpp</itemPath>
+      <itemPath>exercise_3.cpp</itemPath>
       <itemPath>functions.cpp</itemPath>
       <itemPath>main.cpp</itemPath>
     </logicalFolder>
@@ -40,6 +42,10 @@
       <compileType>
       </compileType>
       <item path="exercise_1.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="exercise_2.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="exercise_3.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="functions.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -69,6 +75,10 @@
         </asmTool>
       </compileType>
       <item path="exercise_1.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="exercise_2.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="exercise_3.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="functions.cpp" ex="false" tool="1" flavor2="0">
       </item>

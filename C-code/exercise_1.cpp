@@ -1,7 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
-
+#include "header.h"
 #include <iostream>
 
 
@@ -18,16 +15,37 @@ int array(int a){
     
 }
 
- int return_number(){
+ void return_number(){
+     int numbers[2];
+     int order = 0;
+ cout << "Enter 3 numbers" << endl;
+ for(int i = 0; i < 3; i++){
+     cout << "number " << i << endl;
+      cin >> numbers[i];
+              
+ }
+ cout << "list in rising(enter 1) or decreasing(enter 0) order?" << endl;
+ cin >> order;
  
- cout << "Enter 10 numbers" << endln;
+ if(order == 0){
+     if(numbers[0] < numbers[1]) swap (numbers[0], numbers[1]);
+     if(numbers[1] < numbers[2]) swap (numbers[1], numbers[2]);
+     if(numbers[0] < numbers[1]) swap (numbers[0], numbers[1]); 
+      cout << "numbers: " << numbers[0] << " , " << numbers[1] << " , " << numbers[2];
+     }
  
+ else if(order != 0){
+     if(numbers[0] > numbers[1]) swap (numbers[0], numbers[1]);
+     if(numbers[1] > numbers[2]) swap (numbers[1], numbers[2]);
+     if(numbers[0] > numbers[1]) swap (numbers[0], numbers[1]);
+      cout << "numbers: " << numbers[0] << " , " << numbers[1] << " , " << numbers[2];
+ }
+else{
+    cout << "please enter 0 or 1";
+ }
+
+ }
 
 
 
-
-int main(int argc, char** argv) {
-
-    return 0;
-}
 

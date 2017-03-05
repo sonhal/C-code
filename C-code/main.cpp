@@ -8,7 +8,17 @@ using namespace std;
 
 
 int main() {
-    fib(10);
+    
+    int n;
+    cin >> n;
+    
+    int * p = createArray(n);
+    
+    
+    cout << *p;
+    
+    deleteArray(p);
+    
 }
 
 

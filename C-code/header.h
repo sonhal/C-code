@@ -17,5 +17,9 @@ int fib(int a);
 int fibo(int a);
 int swap2(int& a, int& b);
 int swap1(int a, int b);
-#endif	/* HEADER_H */
+void return_number();
+void string_sort();
+int * createArray(int n);
+void deleteArray(void * p);
+#endif	/* HEADER_H */ 
 

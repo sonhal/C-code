@@ -36,6 +36,8 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 # Object Files
 OBJECTFILES= \
 	${OBJECTDIR}/exercise_1.o \
+	${OBJECTDIR}/exercise_2.o \
+	${OBJECTDIR}/exercise_3.o \
 	${OBJECTDIR}/functions.o \
 	${OBJECTDIR}/main.o
 
@@ -68,6 +70,16 @@ ${OBJECTDIR}/exercise_1.o: exercise_1.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/exercise_1.o exercise_1.cpp
+
+${OBJECTDIR}/exercise_2.o: exercise_2.cpp
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/exercise_2.o exercise_2.cpp
+
+${OBJECTDIR}/exercise_3.o: exercise_3.cpp
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/exercise_3.o exercise_3.cpp
 
 ${OBJECTDIR}/functions.o: functions.cpp
 	${MKDIR} -p ${OBJECTDIR}
